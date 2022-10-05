@@ -17,3 +17,7 @@
 /* COLOR */
 
 /* GENERAL */
+.gen-psw {
+    width: max-content;
+    line-height: 50px;
+}
