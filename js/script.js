@@ -7,7 +7,9 @@
 const nameClient = prompt('Qual è il tuo nome ?');
 const secondNameClient = prompt('Qual è il tuo cognome ?');
 const colorPreferClient = prompt('Qual è il tuo colore preferito ?');
-const ageClient = prompt('Qual è la tua età ? ');
+const yearBornClient = prompt("Qual è l'anno di nascita ?");
+
+const ageClient = 2022 - yearBornClient;
 
 const pswGen = `${nameClient}${secondNameClient}${colorPreferClient}${ageClient}`;
 

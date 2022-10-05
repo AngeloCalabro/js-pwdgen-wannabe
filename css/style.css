@@ -17,7 +17,22 @@
 /* COLOR */
 
 /* GENERAL */
+
+body {
+    background-color: lightgray;
+}
+
+.my-container {
+    width: max-content;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 1s;
+}
+
+.my-container:hover {
+    cursor: not-allowed;
+    scale: 0.9;
+}
+
 .gen-psw {
     width: max-content;
-    line-height: 50px;
 }
