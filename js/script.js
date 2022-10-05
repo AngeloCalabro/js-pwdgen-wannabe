@@ -17,7 +17,7 @@ const saluto = `Password Generator:
 ${pswGen}`
 
 var elemento = alert(saluto);
-var elemento = document.getElementById('my_id');
+var elemento = document.getElementById('my_psw');
 
 elemento.innerHTML = pswGen;
 
