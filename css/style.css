@@ -1,0 +1,19 @@
+/* RESET */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.debug {
+    border: 1px solid black;
+    min-height: 50px;
+}
+
+/* TEXT */
+
+/* PADDING & MARGIN */
+
+/* COLOR */
+
+/* GENERAL */
